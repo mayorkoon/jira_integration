@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Default suite" parallel="methods" verbose="3">
+
+    <listeners>
+
+        <listener class-name="com.demo.listener.TestListener" />
+
+    </listeners>
+
+    <test name=" First test" skipfailedinvocationcounts="false">
+
+        <classes>
+
+            <class name="com.demo.project.HomePage">
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
